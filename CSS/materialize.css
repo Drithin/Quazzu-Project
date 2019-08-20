@@ -1,0 +1,42 @@
+.main-header{
+    background: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    color: white;
+
+}
+
+.herobox-content{
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+.herobox-buttons{
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    left: 680px;
+}
+
+.fa-facebook{
+    color:  #3b5998;
+   font-size: 30px;
+   /* position: absolute; */
+}
+
+.fa-twitter{
+    color: #1da1f2;
+    font-size: 30px;
+   /* position: absolute; */
+   right: 180px;
+}
+
+.fa-instagram{
+    color: #3f729b;
+    font-size: 30px;
+   /* position: absolute; */
+   right: 150px;
+}
