@@ -20,7 +20,7 @@
   <body>
 
     <!-- Navbar -->
-<div class="navbar-fixed main-header">
+<div class="navbar-fixed main-header responsive-img">
    <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
           <div class="container">
@@ -30,14 +30,37 @@
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#solutions">Solutions</a></li>
                 <li><a href="#signup">Sign Up</a></li>
-                <li><a href="#" class="btn purple">Login</a></li>
+                <li><a href="#loginmodal" class="btn modal-trigger purple">Login</a></li>
                 <li><a href="#"> <i class="fab fa-facebook fa-5x"></i></a></li>
                 <li><a href="#"> <i class="fab fa-twitter fa-5x"></i></a></li>
                 <li><a href="#"> <i class="fab fa-instagram fa-5x"></i></a></li>     
           </ul>
-          
+           <!-- Modal Structure -->
+          <div id="loginmodal" class="modal">
+                <div class="modal-content">
+                  <h1>Account Login</h1>
+                  <p>Login to your account to access your dashboard</p>
+                  <form action="">
+                       <!-- Name -->
+                       <div class="input-field">
+                            <input placeholder="Name" id="name" type="text">
+                            <label for="name">Name</label>
+                          </div>
+                    
+                          <!-- Email-->
+                          <div class="input-field">
+                            <input placeholder="Email" id="email" type="email">
+                            <label for="email">Email</label>
+                          </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                        <a class="disabled waves-effect waves-light btn"><i class="fas fa-unlock-alt"></i>Reset Button</a>
+                        <a class="waves-effect waves-light btn"><i class="fas fa-recycle">Login</i></a>
+                </div>
+              </div>
         </div>
-        <div class="herobox-content container">
+        <!-- <div class="herobox-content container">
             <h4>Welcome To Quazzu</h4>
             <h1>Build For The Future</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, ipsam!</p>
@@ -45,9 +68,20 @@
         <div class="herobox-buttons">
             <a href="#" class="btn purple-text white">LEARN MORE</a>
             <a href="#" class="btn purple white-text">SIGN UP</a>
-        </div>
+        </div> -->
         </div>
       </nav>
+      <div class="showcase container">
+          <div class="row">
+              <div class="col s12 m10 offset-m1 center">
+                    <h4>Welcome To Quazzu</h4>
+                    <h1>Build For The Future</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, ipsam!</p> 
+                    <a href="#" class="btn purple-text white">LEARN MORE</a>
+                    <a href="#" class="btn purple white-text">SIGN UP</a>
+              </div>
+          </div>
+      </div>
   
     </div>
     <ul id="mobile-demo" class="sidenav">
@@ -55,15 +89,71 @@
         <li><a href="#solutions">Solutions</a></li>
         <li><a href="#signup">Sign Up</a></li>
         <li><button class="pink darken-1">Login</button></li>
-        <i class="fab fa-facebook fa-lg"></i>
-        <i class="fab fa-twitter "></i>
-        <i class="fab fa-instagram "></i>
+        <li><a href="#"> <i class="fab fa-facebook fa-5x"></i></a></li>
+        <li><a href="#"> <i class="fab fa-twitter fa-5x"></i></a></li>
+        <li><a href="#"> <i class="fab fa-instagram fa-5x"></i></a></li>     
 </ul>
   
-<!-- Home Page  -->
+<!-- Utilities Section  -->
 
-
+<div class="grey lighten-5">
+        <div class="container cards-sec">
+                <div class="row">
+                        <div class="col s12 m4">
+                         <!-- Free Account card -->
+                          <div class="card white purple-text">
+                            <div class="card-content center">
+                                    <i class="fas fa-user fa-5x"></i>
+                              <span class="card-title">Free Account</span>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                            </div>
+                          </div>
+                         </div>
+                        <!-- DB Card -->
+                        <div class="col s12 m4">
+                        <div class="card white purple-text">
+                                <div class="card-content center">
+                                        <i class="fas fa-database fa-5x"></i>
+                                  <span class="card-title">NoSQL Database</span>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <!-- Connections Card -->
+                        <div class="col s12 m4">
+                        <div class="card white purple-text">
+                                <div class="card-content center">
+                                        <i class="fas fa-bolt fa-5x"></i>
+                                  <span class="card-title">Fast Connections</span>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+        </div>
+       </div>
+        </div>
     
+    <!-- About Us  -->
+    <div class="grey lighten-3">
+    <div class="about-us container">
+            <div class="row ">
+                    <div class="col xl6 l6 m6 s12">
+                      <div class="box">
+                          <h1>About Us</h1>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatibus facere praesentium nesciunt 
+                              assumenda tenetur laboriosam a consequuntur velit obcaecati.</p>
+                      </div>
+                    </div>
+                    <div class="col xl6 l6 m6 s12">
+                      <div class="box">
+                           <!-- CIRLCE IMAGE -->
+                         <img src="https://images.unsplash.com/photo-1551703599-2a53f65da7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80" alt="" class="responsive-img circle">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+</div>
 
     
 <!-- Footer -->
