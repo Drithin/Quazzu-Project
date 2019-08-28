@@ -25,4 +25,11 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.modal').modal();
   });
-          
+
+  $(document).ready(function(){
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+    });
+    $('.button-collapse').sideNav();
+  });
+      
